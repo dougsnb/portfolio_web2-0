@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Douglas Braga</title>
-    <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/50/7950F2/d.png" type="image/png">
+    <meta name="description" content="Portfólio de Douglas Braga, Desenvolvedor Full-Stack especializado em Python, Django, Java e Desenvolvimento Web.">
+    <title>Douglas Braga | Desenvolvedor Back-End</title>
+    
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Sketch&family=Roboto+Mono:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Sketch&family=Roboto+Mono:ital,wght@0,700;1,700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
-</head>
+
+    </head>
 
 <body>
     <header>    
-        <a href="/" class="logo">Douglas<span> Braga</span></a>
+        <a href="#home" class="logo">Douglas<span> Braga</span></a>
 
         <div class="menu-hamburguer" id="menuHamburguer" onclick="toggleMenu()">
             <div class="linha1"></div>
@@ -26,207 +28,179 @@
 
         <nav class="nav" id="navMenu">
             <ul class="navlist">
-                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="#about"><i class="fas fa-user"></i> About Me</a></li>
-                <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
-                <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
-                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>                
+                <li><a href="#home"><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user" aria-hidden="true"></i> Sobre Mim</a></li>
+                <li><a href="#projects"><i class="fas fa-briefcase" aria-hidden="true"></i> Projetos</a></li>
+                <li><a href="#skills"><i class="fas fa-tools" aria-hidden="true"></i> Habilidades</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope" aria-hidden="true"></i> Contato</a></li>                
             </ul>
-
-            <div class="bx bx-menu" id="menu-icon"></div>
         </nav>
     </header>
 
-    <!-- sessão home -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <div class="slide">
-                <span class="one">Hello</span>
-                <span class="two">I'm</span>
-            </div>
-            <h1>Douglas Braga</h1>
-            <h3>Developer <span>Full-Stack</span></h3>
-            <div>
-                <a href="Arquivos/Currículo - Douglas da Silva Noveli Braga.pdf" class="link" download>Download Curriculum</a>   
-            </div>
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <div class="slide">
+                    <span class="one">Olá</span>
+                    <span class="two">Eu sou</span>
+                </div>
+                <h1>Douglas Braga</h1>
+                <h3>Desenvolvedor <span>Back-End</span></h3>
+                <div>
+                    <a href="Arquivos/Curriculo_Douglas_Braga.pdf" class="link" download>Download Currículo</a>   
+                </div>
 
-            <div class="button">
-                <a href="https://wa.me/+5551999137647" target="_blank" class="btn">Say hello</a>
-                <a href="#projects" class="btn2"><span><img src="https://img.icons8.com/ios-filled/25/FFFFFF/play--v1.png" alt="play icon" /></span>See my work</a>
-            </div>
-        </div>
-    </section>
-    <!-- sessão home -->
-
-    <!-- Sessão About -->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img class="img-about" src="img/perfil about.jpeg" alt="About Me">
-        </div>
-
-        <div class="about-text">
-            <h2>About <span>Me</span></h2>
-            <h4>Just a programming fan</h4>
-            <p>• Graduating in Systems Analysis and Development.</p>
-            <p>• Studying Web Development, Python Applications and Artificial Intelligence (AI)</p>
-            <p>• Always looking for evolution</p>
-
-            <div class="socials">
-                <a href="https://www.linkedin.com/in/douglasnbraga/" target="_blank" class="btn-socials"><span><img src="https://img.icons8.com/ios/50/FFFFFF/linkedin.png" alt="LinkedIn icon" /></span></a>
-
-                <a href="https://github.com/dougsnb" target="_blank" class="btn-socials"><span><img src="https://img.icons8.com/ios/50/FFFFFF/github--v1.png" alt="github icon" /></span></a>
-
-                <a href="https://twitter.com/dougsnb" target="_blank" class="btn-socials"><span><img src="https://img.icons8.com/ios/50/FFFFFF/twitter--v1.png" alt="twitter icon" /></span></a>
-
-                <a href="https://www.instagram.com/dougsnb" target="_blank" class="btn-socials"><span><img src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="instagram icon" /></span></a>
-            </div>
-        </div>
-    </section>
-    <!-- Sessão About -->
-
-    <!-- Sessão Projects -->
-    <section class="projects" id="projects">
-        <div class="main-text">
-            <h2>Latest <span>Projects</span></h2>
-        </div>
-
-        <div class="portfolio-content">
-            <div class="row">
-                <img src="img/foto_app_diesel (2).png" alt="Project Image">
-                <div class="layer">
-                    <h5>Supply Control - Diesel</h5>
-                    <p>The diesel fueling control app allows you to efficiently manage fuel supply and consumption...</p>
-                    <a class="btn-link" href="https://github.com/dougsnb/app_controlediesel" target="_blank"><img src="https://img.icons8.com/ios-filled/50/link--v1.png" alt="Link Externo" style="width: 30px; height: 30px;"></a>
-                    
+                <div class="button">
+                    <a href="https://wa.me/+5551999137647" target="_blank" class="btn">Diga Olá</a>
+                    <a href="#projects" class="btn2"><span><img src="https://img.icons8.com/ios-filled/25/FFFFFF/play--v1.png" alt="" /></span>Veja meu trabalho</a>
                 </div>
             </div>
+        </section>
 
-            <div class="row">
-                <img src="img/linktree.jpg" alt="Project Image">
-                <div class="layer">
-                    <h5>Linktree - Social media hub</h5>
-                    <p>Linktree is a platform that centralizes all your important links in a single location...</p>
-                    <a class="btn-link" href="https://linktree-douglasbraga.netlify.app/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/link--v1.png" alt="Link Externo" style="width: 30px; height: 30px;"></a>
-                </div>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img class="img-about" src="img/perfil about.png" alt="Foto de perfil de Douglas Braga">
             </div>
 
-            <div class="row">
-                <img src="img/portfolio1.0.JPG" alt="Project Image">
-                <div class="layer">
-                    <h5>Portfolio - 1.0</h5>
-                    <p>A portfolio is an organized collection of work and projects that demonstrate a professional's skills...</p>
-                    <a class="btn-link" href="https://github.com/dougsnb/portifolio_web" target="_blank"><img src="https://img.icons8.com/ios-filled/50/link--v1.png" alt="Link Externo" style="width: 30px; height: 30px;"></a>
+            <div class="about-text">
+                <h2>Sobre <span>Mim</span></h2>
+                <h4>Desenvolvedor apaixonado por criar soluções e explorar novas tecnologias.</h4>
+                <ul>
+                    <li>Olá! Sou o Douglas, um entusiasta da tecnologia atualmente cursando Análise e Desenvolvimento de Sistemas. Minha jornada na programação começou com o desejo de transformar ideias em realidade digital, o que me levou a mergulhar no universo do <strong>Desenvolvimento Web</strong> e de <strong>Aplicações Python</strong>.</li>
+                    <li>Hoje, meu foco é construir interfaces e sistemas funcionais, enquanto exploro o campo da <strong>Inteligência Artificial</strong> para entender como a tecnologia pode solucionar problemas complexos. Estou sempre em busca de desafios que me permitam aprender e evoluir minhas habilidades como desenvolvedor.</li>
+                </ul>
+
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/douglasnbraga/" target="_blank" class="btn-socials" aria-label="LinkedIn de Douglas Braga"><span><img src="https://img.icons8.com/ios/50/FFFFFF/linkedin.png" alt="Ícone do LinkedIn" /></span></a>
+                    <a href="https://github.com/dougsnb" target="_blank" class="btn-socials" aria-label="GitHub de Douglas Braga"><span><img src="https://img.icons8.com/ios/50/FFFFFF/github--v1.png" alt="Ícone do GitHub" /></span></a>
+                    <a href="https://twitter.com/dougsnb" target="_blank" class="btn-socials" aria-label="Twitter de Douglas Braga"><span><img src="https://img.icons8.com/ios/50/FFFFFF/twitter--v1.png" alt="Ícone do Twitter" /></span></a>
+                    <a href="https://www.instagram.com/dougsnb" target="_blank" class="btn-socials" aria-label="Instagram de Douglas Braga"><span><img src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="Ícone do Instagram" /></span></a>
                 </div>
             </div>
+        </section>
 
-            <div class="row">
-                <img src="img/biometric-technology-background-with-fingerprint-scanning-system-virtual-screen-digital-remix.jpg" alt="Project Image">
-                <div class="layer">
-                    <h5>Login Screen</h5>
-                    <p>The login screen allows users to access their accounts securely and efficiently...</p>
-                    <a class="btn-link" href="https://github.com/dougsnb/screen_login" target="_blank"><img src="https://img.icons8.com/ios-filled/50/link--v1.png" alt="Link Externo" style="width: 30px; height: 30px;"></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="img/25115.jpg" alt="Project Image">
-                <div class="layer">
-                    <h5>⚠️Shortly⚠️</h5>
-                    <p>There will soon be new projects here, they are in the development process</p>
-                    <!-- <a class="btn-link" href="#" target="_blank"><img src="https://img.icons8.com/ios-filled/50/link--v1.png" alt="Link Externo" style="width: 30px; height: 30px;"></a> -->
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="img/25115.jpg" alt="Project Image">
-                <div class="layer">
-                    <h5>⚠️Shortly⚠️</h5>
-                    <p>There will soon be new projects here, they are in the development process</p>
-                    <!-- <a class="btn-link" href="#" target="_blank"><img src="https://img.icons8.com/ios-filled/50/link--v1.png" alt="Link Externo" style="width: 30px; height: 30px;"></a> -->
-                </div>
-            </div>
-        </div>
-        
-    </section>
-    <!-- Sessão Projects -->
-
-    <!-- Sessão Skills -->
-    <section class="skills" id="skills">
-        <div class="main-text">
-            <p>What I am Good In</p>
-            <h2><span>My</span> Skills</h2>
-        </div>
-
-        <div class="skills-icon">
-            <img class="box" width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png" alt="JavaScript"/>
-            <img class="box" width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="CSS3"/>
-            <img class="box" width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="HTML5"/>
-            <img class="box" width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="Python"/>
-            <img class="box" width="48" height="48" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-sql-computer-programming-icons-flaticons-lineal-color-flat-icons.png" alt="SQL"/>
-            <img class="box" width="48" height="48" src="https://img.icons8.com/color/48/git.png" alt="Git"/>
-        </div>
-
-        <div class="certificates-text">
+        <section class="projects" id="projects">
             <div class="main-text">
-                <h2><span>My</span> Certificates</h2>
+                <h2>Últimos <span>Projetos</span></h2>
             </div>
-        
-            <div class="certificates-icon">
-                <a href="https://drive.google.com/file/d/156aXY5613rt-1CwCo3x_VgBR1BCsMKUG/view?usp=sharing" target="_blank"><img src="https://img.icons8.com/color/48/html-5--v1.png" alt="HTML5" width="48" height="48" style="vertical-align: middle; margin-right: 5px;"></a><a class="link" href="https://drive.google.com/file/d/156aXY5613rt-1CwCo3x_VgBR1BCsMKUG/view?usp=sharing" target="_blank">Certificate HTML5</a>
+            <div class="portfolio-content">
+                <article class="row">
+                    <img src="img/1751405438349.jpg" alt="Projeto Sistema de Gestão de Vendas">
+                    <div class="layer">
+                        <h5>Sistema de Gestão de Vendas</h5>
+                        <p>Aplicação full-stack para gerenciar produtos, clientes e pedidos. Construída com Python e Django REST Framework, com uma API segura baseada em JWT.</p>
+                        <a class="btn-link" href="https://github.com/dougsnb/seu-repositorio-de-vendas" target="_blank" aria-label="Ver projeto Sistema de Gestão de Vendas no GitHub"><img src="https://img.icons8.com/ios-filled/50/link--v1.png" alt="Link Externo"></a>
+                    </div>
+                </article>
+                <article class="row">
+                    <img src="img/foto_app_diesel (2).png" alt="Projeto App de Controle de Abastecimento">
+                    <div class="layer">
+                        <h5>Controle de Abastecimento - Diesel</h5>
+                        <p>App nativo para Android desenvolvido com Java para ajudar motoristas a controlar e gerenciar despesas com combustível. Possui armazenamento local de dados e interface limpa.</p>
+                        <a class="btn-link" href="https://github.com/dougsnb/app_controlediesel" target="_blank" aria-label="Ver projeto Controle de Abastecimento no GitHub"><img src="https://img.icons8.com/ios-filled/50/link--v1.png" alt="Link Externo"></a>
+                    </div>
+                </article>
+                <article class="row">
+                    <img src="img/linktree.jpg" alt="Projeto Clone de Linktree">
+                    <div class="layer">
+                        <h5>Clone do Linktree</h5>
+                        <p>Uma página agregadora de links responsiva, construída com HTML e CSS puros. Um exercício prático em desenvolvimento front-end, com deploy na Netlify.</p>
+                        <a class="btn-link" href="https://linktree-douglasbraga.netlify.app/" target="_blank" aria-label="Ver projeto Clone do Linktree ao vivo"><img src="https://img.icons8.com/ios-filled/50/link--v1.png" alt="Link Externo"></a>
+                    </div>
+                </article>
+                <article class="row">
+                    <img src="img/biometric-technology-background-with-fingerprint-scanning-system-virtual-screen-digital-remix.jpg" alt="Projeto Tela de Login Reutilizável">
+                    <div class="layer">
+                        <h5>Tela de Login Reutilizável</h5>
+                        <p>Um componente de tela de login com validação de formulário no lado do cliente usando JavaScript. Projetado para ser facilmente integrado em outros projetos.</p>
+                        <a class="btn-link" href="https://github.com/dougsnb/screen_login" target="_blank" aria-label="Ver projeto Tela de Login no GitHub"><img src="https://img.icons8.com/ios-filled/50/link--v1.png" alt="Link Externo"></a>
+                    </div>
+                </article>
             </div>
-            <div class="certificates-icon">
-                <a href="https://drive.google.com/file/d/1KNjsC1K4I-FWxglojw-mZLkj3xzHoB3t/view?usp=sharing" target="_blank"><img src="https://img.icons8.com/color/48/css3.png" alt="CSS3" width="48" height="48" style="vertical-align: middle; margin-right: 5px;"></a><a class="link" href="https://drive.google.com/file/d/1KNjsC1K4I-FWxglojw-mZLkj3xzHoB3t/view?usp=sharing" target="_blank">Certificate CSS3</a>
-            </div>
-            <div class="certificates-icon">
-                <a href="https://drive.google.com/file/d/1KNjsC1K4I-FWxglojw-mZLkj3xzHoB3t/view?usp=sharing" target="_blank"><img src="https://img.icons8.com/color/48/javascript--v1.png" alt="JavaScript" width="48" height="48" style="vertical-align: middle; margin-right: 5px;"></a><a class="link" href="https://drive.google.com/file/d/1KNjsC1K4I-FWxglojw-mZLkj3xzHoB3t/view?usp=sharing" target="_blank">Certificate JavaScript</a>
-            </div>
-            
-        </div>
-        
-            
-        </div>
-    </section>
-    <!-- Sessão Skills -->
+        </section>
 
-    <!-- Sessão Contact -->
-    <section class="contact" id="contact">
-        <div class="main-text-contact">
-            <h2>Get in <span>Touch</span></h2>
-        </div>
-
-        <div class="contact-box">
-            <form id="contactForm" action="https://formspree.io/f/mldrqqwz" method="POST">
-                <div class="caixa-input">
-                    <input type="text" name="nome" placeholder="Nome completo" required>
-                    <input type="email" name="email" placeholder="E-mail" required>
+        <section class="skills" id="skills">
+            <div class="skills-content">
+                <div class="main-text">
+                    <h2>Minhas <span>Habilidades</span></h2>
                 </div>
-                <div class="caixa-input">
-                    <input type="tel" name="telefone" placeholder="Telefone de contato" required>
-                    <input type="text" name="assunto" placeholder="Assunto" required>
-                    <textarea name="mensagem" cols="30" rows="7" placeholder="Mensagem" required></textarea>
-                </div>
-                
-                <div class="button-container">
-                    <button class="btn-message">Enviar Mensagem</button>
-                </div>
-
-            </form>
-
-            <div id="successMessage" style="display:none; margin-top: 20px; color: green;">
-                Obrigado! Sua mensagem foi enviada com sucesso.
+                <ul class="skills-icon" aria-label="Tecnologias que domino">
+                    <li><img src="https://img.icons8.com/color/48/javascript--v1.png" alt="JavaScript"></li>
+                    <li><img src="https://img.icons8.com/color/48/python--v1.png" alt="Python"></li>
+                    <li><img src="https://img.icons8.com/color/48/html-5--v1.png" alt="HTML5"></li>
+                    <li><img src="https://img.icons8.com/color/48/css3.png" alt="CSS3"></li>
+                    <li><img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-sql-computer-programming-icons-flaticons-lineal-color-flat-icons.png" alt="SQL"></li>
+                    <li><img src="https://img.icons8.com/color/48/git.png" alt="Git"></li>
+                </ul>
             </div>
-            
-        </div>
-    </section>
-    <!-- Sessão Contact -->
 
-    <!-- Sessão end -->
-    <section class="end">
+            <div class="certificates-content">
+                <div class="main-text">
+                    <h2>Meus <span>Certificados</span></h2>
+                </div>
+                <ul class="certificates-list">
+                    <li>
+                        <a class="certificate-link" href="URL_DO_CERTIFICADO_HTML" target="_blank">
+                            <img src="https://img.icons8.com/color/48/html-5--v1.png" alt="Certificado HTML5">
+                            <span>Certificado HTML5</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="certificate-link" href="URL_DO_CERTIFICADO_CSS" target="_blank">
+                            <img src="https://img.icons8.com/color/48/css3.png" alt="Certificado CSS3">
+                            <span>Certificado CSS3</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="certificate-link" href="URL_DO_CERTIFICADO_JS" target="_blank">
+                            <img src="https://img.icons8.com/color/48/javascript--v1.png" alt="Certificado JavaScript">
+                            <span>Certificado JavaScript</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="main-text-contact">
+                <h2>Entre em <span>Contato</span></h2>
+            </div>
+            <div class="contact-box">
+                <form id="contactForm" action="https://formspree.io/f/mldrqqwz" method="POST">
+                    <div class="caixa-input">
+                        <label for="fullName" class="sr-only">Nome Completo</label>
+                        <input type="text" id="fullName" name="nome" placeholder="Nome completo" required>
+                        
+                        <label for="email" class="sr-only">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="caixa-input">
+                        <label for="phone" class="sr-only">Telefone de contato</label>
+                        <input type="tel" id="phone" name="telefone" placeholder="Telefone de contato" required>
+                        
+                        <label for="subject" class="sr-only">Assunto</label>
+                        <input type="text" id="subject" name="assunto" placeholder="Assunto" required>
+                    </div>
+                    
+                    <label for="message" class="sr-only">Sua Mensagem</label>
+                    <textarea id="message" name="mensagem" cols="30" rows="7" placeholder="Sua mensagem" required></textarea>
+                    
+                    <div class="button-container">
+                        <button type="submit" class="btn-message">Enviar Mensagem</button>
+                    </div>
+                </form>
+                <div id="successMessage" style="display:none; margin-top: 20px; color: green;">
+                    Obrigado! Sua mensagem foi enviada com sucesso.
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
         <div class="last-text">
-            <p>© 2024 Douglas Braga. All rights reserved.</p>
+            <p>&copy; 2025 Douglas Braga. Todos os direitos reservados.</p>
         </div>
-    </section>
-    <!-- Sessão end -->
+    </footer>
 
     <script src="script.js"></script>
 </body>
